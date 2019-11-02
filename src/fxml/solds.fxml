@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="690.0" prefWidth="1366.0" style="-fx-background-color: #212121;" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Solds">
+   <children>
+      <SplitPane dividerPositions="0.2526002971768202" layoutX="-1.0" layoutY="62.0" prefHeight="658.0" prefWidth="1302.0" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="9.0" AnchorPane.rightAnchor="55.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <ImageView fitHeight="658.0" fitWidth="464.0" layoutX="7.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <image>
+                        <Image url="@../alexandre-debieve-590763-unsplash.jpg" />
+                     </image>
+                  </ImageView>
+               </children></AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0" style="-fx-background-color: #212121;">
+               <children>
+                  <TableView fx:id="tbsold" layoutY="47.0" onKeyTyped="#searchrecord" prefHeight="571.0" prefWidth="969.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="47.0">
+                    <columns>
+                        <TableColumn fx:id="id" prefWidth="335.0" text="Product_id" />
+                        <TableColumn fx:id="price" prefWidth="263.0" text="Price" />
+                        <TableColumn fx:id="amount" prefWidth="229.0" text="Amount" />
+                    </columns>
+                  </TableView>
+                  <JFXTextField fx:id="searchbox" focusColor="#455a64" labelFloat="true" layoutX="122.0" layoutY="14.0" onKeyTyped="#searchrecord" prefHeight="25.0" prefWidth="260.0" promptText="Search" style="-fx-background-color: #ffffff;" unFocusColor="#455a64" AnchorPane.topAnchor="14.0" />
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

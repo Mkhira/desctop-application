@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXToolbar?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="786.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.User">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="600.0" scaleZ="3.0" style="-fx-background-color: #212121;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <AnchorPane fx:id="container" layoutX="7.0" layoutY="76.0" prefHeight="700.0" prefWidth="1349.0" style="-fx-background-color: #000000;" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="12.0" AnchorPane.topAnchor="76.0">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="465.0" layoutY="203.0" pickOnBounds="true" preserveRatio="true" AnchorPane.topAnchor="203.0" />
+                  <ImageView fitHeight="707.0" fitWidth="1048.0" layoutX="156.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="-7.0" AnchorPane.leftAnchor="156.0" AnchorPane.rightAnchor="145.0" AnchorPane.topAnchor="0.0">
+                     <image>
+                        <Image url="@../ryan-stone-1178245-unsplash.jpg" />
+                     </image>
+                  </ImageView>
+               </children></AnchorPane>
+            <JFXToolbar layoutX="8.0" layoutY="12.0" prefHeight="55.0" prefWidth="612.0" style="-fx-background-color: #212121;" AnchorPane.leftAnchor="8.0" AnchorPane.rightAnchor="142.0" AnchorPane.topAnchor="12.0">
+               <right>
+                  <JFXButton fx:id="in" buttonType="RAISED" mnemonicParsing="false" onAction="#inv" prefHeight="45.0" prefWidth="280.0" ripplerFill="#9a9292" style="-fx-background-color: #03A9F4;" text="Inventory" textFill="WHITE" BorderPane.alignment="CENTER">
+                     <font>
+                        <Font name="Bell MT Bold" size="22.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../storage.png" />
+                           </image>
+                        </ImageView>
+                     </graphic></JFXButton>
+               </right>
+               <center>
+                  <JFXButton fx:id="se" buttonType="RAISED" mnemonicParsing="false" onAction="#sell" prefHeight="45.0" prefWidth="280.0" ripplerFill="#4caf50" style="-fx-background-color: #03A9F4;" text="Sell" textFill="WHITE" BorderPane.alignment="CENTER">
+                     <font>
+                        <Font name="Bell MT Bold" size="22.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../selling.png" />
+                           </image>
+                        </ImageView>
+                     </graphic></JFXButton>
+               </center>
+               <left>
+                  <JFXButton fx:id="ex" buttonType="RAISED" mnemonicParsing="false" onAction="#exh" prefHeight="45.0" prefWidth="280.0" ripplerFill="#4caf50" style="-fx-background-color: #03A9F4;" text="Exhibition" textFill="WHITE" BorderPane.alignment="CENTER">
+                     <padding>
+                        <Insets top="2.0" />
+                     </padding>
+                     <font>
+                        <Font name="Bell MT Bold" size="22.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../cart.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </JFXButton>
+               </left>
+            </JFXToolbar>
+            <JFXButton fx:id="lo" buttonType="RAISED" layoutX="1280.0" layoutY="14.0" mnemonicParsing="false" onAction="#log" prefHeight="38.0" prefWidth="98.0" ripplerFill="WHITE" style="-fx-background-color: #03A9F4;" text="Log out" textFill="WHITE" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="14.0">
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../logout.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="Bell MT Bold" size="13.0" />
+               </font></JFXButton>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import com.jfoenix.controls.JFXToggleButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="710.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <ImageView fitHeight="407.0" fitWidth="712.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="-4.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="-3.0">
+         <image>
+            <Image url="@../IMG-20181124-WA0020.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane opacity="0.6" prefHeight="400.0" prefWidth="712.0" style="-fx-background-color: #000000;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <JFXButton buttonType="RAISED" layoutX="500.0" layoutY="297.0" mnemonicParsing="false" onAction="#log" prefHeight="31.0" prefWidth="96.0" style="-fx-background-color: #B2EBF2;" text="Login" AnchorPane.rightAnchor="114.0">
+               <font>
+                  <Font name="Bell MT Bold" size="16.0" />
+               </font></JFXButton>
+            <JFXTextField fx:id="username" labelFloat="true" layoutX="444.0" layoutY="142.0" prefHeight="25.0" prefWidth="208.0" promptText="User Name" AnchorPane.rightAnchor="58.0">
+               <font>
+                  <Font name="Bell MT" size="18.0" />
+               </font>
+               <effect>
+                  <Lighting specularConstant="2.0" specularExponent="0.0">
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant color="#74d2dd" />
+                     </light>
+                  </Lighting>
+               </effect>
+            </JFXTextField>
+            <JFXPasswordField fx:id="password" labelFloat="true" layoutX="444.0" layoutY="217.0" prefHeight="25.0" prefWidth="208.0" promptText="Password" AnchorPane.rightAnchor="58.0">
+               <font>
+                  <Font name="Bell MT Bold" size="18.0" />
+               </font>
+               <effect>
+                  <Lighting specularConstant="2.0" specularExponent="0.0">
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant color="#74d2dd" />
+                     </light>
+                  </Lighting>
+               </effect></JFXPasswordField>
+            <JFXToggleButton fx:id="togel" layoutX="500.0" layoutY="72.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="145.0" text="Manger" textFill="#91e2eb">
+               <font>
+                  <Font name="Bell MT Bold" size="18.0" />
+               </font>
+            </JFXToggleButton>
+            <Label layoutX="427.0" layoutY="90.0" prefHeight="25.0" prefWidth="87.0" text="Employee" textFill="#b2ebf2" AnchorPane.topAnchor="90.0">
+               <font>
+                  <Font name="Bell MT Bold" size="18.0" />
+               </font>
+            </Label>
+            <JFXButton buttonType="RAISED" layoutX="174.0" layoutY="297.0" mnemonicParsing="false" onAction="#shop" prefHeight="33.0" prefWidth="96.0" style="-fx-background-color: #B2EBF2;" text="Shop" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

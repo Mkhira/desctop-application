@@ -1,0 +1,29 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="untitled">
+    <output-path>$PROJECT_DIR$/out/artifacts/untitled</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="sample.Main" />
+        <option name="description" value="" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="nativeBundle" value="all" />
+        <option name="title" value="" />
+        <option name="vendor" value="" />
+        <option name="version" value="" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="untitled.jar">
+        <element id="module-output" name="untitled" />
+      </element>
+      <element id="library" level="project" name="controlsfx-8.40.12" />
+      <element id="library" level="project" name="jfoenix-8.0.7" />
+      <element id="library" level="project" name="jfoenix-8.0.71" />
+      <element id="library" level="project" name="Jfonex" />
+      <element id="module-output" name="untitled" />
+      <element id="module-source" name="untitled" />
+      <element id="file-copy" path="$PROJECT_DIR$/software/software.sql" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/mysql-connector-java-8.0.13.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

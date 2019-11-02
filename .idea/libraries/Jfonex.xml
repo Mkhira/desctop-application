@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Jfonex">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/jfoenix-8.0.7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <excluded>
+      <root url="jar://$PROJECT_DIR$/jfoenix-8.0.7.jar!/" />
+    </excluded>
+  </library>
+</component>

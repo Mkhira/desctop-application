@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="549.0" prefWidth="790.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Monitor">
+   <children>
+      <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="549.0" prefWidth="916.0">
+         <children>
+            <ImageView fitHeight="173.0" fitWidth="219.0" layoutX="51.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../3305353-intro.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="51.0" layoutY="203.0" prefHeight="17.0" prefWidth="131.0" text="Samsung">
+               <font>
+                  <Font name="Arial Black" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="51.0" layoutY="223.0" prefHeight="17.0" prefWidth="74.0" text="xcs152">
+               <font>
+                  <Font name="Arial Black" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="50.0" layoutY="243.0" prefHeight="20.0" prefWidth="105.0" text="Price:  300 $">
+               <font>
+                  <Font name="Arial Black" size="13.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="173.0" fitWidth="219.0" layoutX="340.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../1507715627-min.jpeg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="182.0" fitWidth="283.0" layoutX="603.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="346.0" AnchorPane.leftAnchor="603.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="21.0">
+               <image>
+                  <Image url="@../dell-ultrasharp-oled-monitor-59e6522f519de200125ea0ac.PNG" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="164.0" fitWidth="257.0" layoutX="42.0" layoutY="275.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../gaming-monitors.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="183.0" fitWidth="304.0" layoutX="603.0" layoutY="263.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="103.0" AnchorPane.leftAnchor="603.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="263.0">
+               <image>
+                  <Image url="@../images%20(1).jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="190.0" fitWidth="263.0" layoutX="314.0" layoutY="275.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../HDR-Monitors.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="603.0" layoutY="243.0" prefHeight="17.0" prefWidth="131.0" text="Price: 650 $" AnchorPane.rightAnchor="56.0">
+               <font>
+                  <Font name="Arial Black" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="603.0" layoutY="223.0" prefHeight="17.0" prefWidth="131.0" text="PNT658" AnchorPane.rightAnchor="56.0">
+               <font>
+                  <Font name="Arial Black" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="729.0" layoutY="203.0" prefHeight="20.0" prefWidth="105.0" text="LG" AnchorPane.bottomAnchor="326.0" AnchorPane.leftAnchor="729.0" AnchorPane.rightAnchor="82.0" AnchorPane.topAnchor="203.0">
+               <font>
+                  <Font name="Arial Black" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="340.0" layoutY="243.0" prefHeight="17.0" prefWidth="131.0" text="Price: 500 $">
+               <font>
+                  <Font name="Arial Black" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="340.0" layoutY="223.0" prefHeight="17.0" prefWidth="131.0" text="SS412">
+               <font>
+                  <Font name="Arial Black" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="340.0" layoutY="203.0" prefHeight="20.0" prefWidth="144.0" text="BenQ">
+               <font>
+                  <Font name="Arial Black" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="613.0" layoutY="458.0" prefHeight="20.0" prefWidth="153.0" text="Multi view screen" AnchorPane.rightAnchor="24.0">
+               <font>
+                  <Font name="Arial Black" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="340.0" layoutY="458.0" prefHeight="17.0" prefWidth="131.0" text="acer">
+               <font>
+                  <Font name="Arial Black" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="42.0" layoutY="448.0" prefHeight="20.0" prefWidth="144.0" text="ASUS">
+               <font>
+                  <Font name="Arial Black" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="613.0" layoutY="478.0" prefHeight="17.0" prefWidth="131.0" text="skl55" AnchorPane.rightAnchor="46.0">
+               <font>
+                  <Font name="Arial Black" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="340.0" layoutY="498.0" prefHeight="17.0" prefWidth="131.0" text="Pice: 5000 $">
+               <font>
+                  <Font name="Arial Black" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="340.0" layoutY="478.0" prefHeight="17.0" prefWidth="131.0" text="M416">
+               <font>
+                  <Font name="Arial Black" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="42.0" layoutY="488.0" prefHeight="17.0" prefWidth="131.0" text="Price: 1000 $">
+               <font>
+                  <Font name="Arial Black" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="42.0" layoutY="468.0" prefHeight="17.0" prefWidth="131.0" text="SKS56">
+               <font>
+                  <Font name="Arial Black" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="613.0" layoutY="498.0" prefHeight="17.0" prefWidth="131.0" text="Price: 950 $" AnchorPane.rightAnchor="46.0">
+               <font>
+                  <Font name="Arial Black" size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="549.0" prefWidth="839.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="173.0" fitWidth="219.0" layoutX="28.0" layoutY="72.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../0_0_480_1_70__News_netgear_LB2120.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="109.0" fitWidth="284.0" layoutX="504.0" layoutY="340.0" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="16.0">
+         <image>
+            <Image url="@../CR-Electronics-Hero-Router-Security-07-2016.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="184.0" fitWidth="199.0" layoutX="586.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../G200-300.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="173.0" fitWidth="219.0" layoutX="17.0" layoutY="303.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../TP_Link_Router.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="160.0" fitWidth="253.0" layoutX="289.0" layoutY="52.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../fbi-seizes-domain-controlling-500000-compromised-routers-showcase_image-3-a-11030.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="124.0" fitWidth="298.0" layoutX="217.0" layoutY="340.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../GPON-home-routers-security-issues.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="332.0" layoutY="491.0" prefHeight="17.0" prefWidth="131.0" text="Price:4500$">
+         <font>
+            <Font name="Arial Black" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="612.0" layoutY="213.0" prefHeight="17.0" prefWidth="131.0" text="Etisalat">
+         <font>
+            <Font name="Arial Black" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="333.0" layoutY="253.0" prefHeight="17.0" prefWidth="131.0" text="Price: 2560 $">
+         <font>
+            <Font name="Arial Black" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="61.0" layoutY="489.0" prefHeight="17.0" prefWidth="131.0" text="Price: 600 $">
+         <font>
+            <Font name="Arial Black" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="61.0" layoutY="253.0" prefHeight="17.0" prefWidth="131.0" text="Price:1650 $">
+         <font>
+            <Font name="Arial Black" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="333.0" layoutY="469.0" prefHeight="17.0" prefWidth="131.0" text="KAR75">
+         <font>
+            <Font name="Arial Black" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="61.0" layoutY="469.0" prefHeight="17.0" prefWidth="131.0" text="OUZE23">
+         <font>
+            <Font name="Arial Black" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="333.0" layoutY="233.0" prefHeight="17.0" prefWidth="131.0" text="QBU357">
+         <font>
+            <Font name="Arial Black" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="618.0" layoutY="469.0" prefHeight="17.0" prefWidth="131.0" text="AWM9">
+         <font>
+            <Font name="Arial Black" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="333.0" layoutY="450.0" prefHeight="17.0" prefWidth="131.0" text="Treble Router">
+         <font>
+            <Font name="Arial Black" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="61.0" layoutY="450.0" prefHeight="17.0" prefWidth="131.0" text="TP-Link router">
+         <font>
+            <Font name="Arial Black" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="612.0" layoutY="253.0" prefHeight="17.0" prefWidth="131.0" text="Price: 500$">
+         <font>
+            <Font name="Arial Black" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="618.0" layoutY="450.0" prefHeight="17.0" prefWidth="131.0" text="MAC router">
+         <font>
+            <Font name="Arial Black" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="612.0" layoutY="233.0" prefHeight="17.0" prefWidth="131.0" text="VIC45693">
+         <font>
+            <Font name="Arial Black" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="61.0" layoutY="233.0" prefHeight="17.0" prefWidth="131.0" text="Ak775">
+         <font>
+            <Font name="Arial Black" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="61.0" layoutY="213.0" prefHeight="17.0" prefWidth="131.0" text="ACER router">
+         <font>
+            <Font name="Arial Black" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="333.0" layoutY="213.0" prefHeight="17.0" prefWidth="131.0" text="Wireless router">
+         <font>
+            <Font name="Arial Black" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="618.0" layoutY="489.0" prefHeight="17.0" prefWidth="131.0" text="Price:6000">
+         <font>
+            <Font name="Arial Black" size="13.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
